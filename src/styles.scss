@@ -1,0 +1,80 @@
+/* You can add global styles to this file, and also import other style files */
+
+@import 'assets/styles/reset';
+@import 'assets/styles/variables';
+@import 'assets/styles/mixins';
+@import 'assets/styles/fonts';
+
+body{
+    overflow-x: hidden;
+    // background-color: $mainBG;
+}
+
+.f-row{
+    display: flex;
+flex-direction: row;
+}
+
+.align-center{
+    display: flex;
+align-items: center;
+}
+
+.justify-center{
+    display: flex;
+justify-content: center;
+}
+
+.text-light{
+    font-family: $fontLight;
+}
+
+.text-semi-bold{
+    font-family: $fontSemiBold;
+}
+
+
+// ul{
+//     @include flexbox(row, wrap, space-around, center);
+//     li{
+//         a{
+//             // @include flexbox(row, wrap, center, center)
+//             width: 100px;
+//             &:hover{
+//                 background-color: #fff;
+//             }
+//             @media screen and (max-width: 1024px) {
+//                 background-color: green;
+//             }
+//         }
+//     }
+// }
+
+// ol{
+//     @extend ul;           // inherit
+//     @extend li.danger; 
+// }
+
+
+
+
+// BEM !!!!
+
+
+
+
+
+
+// .productItem__price-sale
+// .productItem{
+    // &__btn{
+// @include row-flex();
+    // }
+//     &__price{            //ampersant
+//         &-sale{
+// &::after{                                //псевдоелемент афтер відноситься до класу .productItem__price-sale::after
+
+// }
+//         }
+//     }
+// }

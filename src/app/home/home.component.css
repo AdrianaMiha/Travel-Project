@@ -1,0 +1,12 @@
+.secondBlock {
+  height: 100vh;
+  background-color: #e1dbcf;
+}
+
+.secondBlock__image {
+  height: 100vh;
+  width: 47%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+/*# sourceMappingURL=home.component.css.map */

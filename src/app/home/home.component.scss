@@ -1,0 +1,13 @@
+@import '../../assets/styles/variables';
+@import '../../assets/styles/mixins';
+
+.secondBlock{
+    height: 100vh; 
+    background-color: $secondBlockBG;
+
+    &__image{
+      height: 100vh;  
+      width: 47%;
+      object-fit: cover;
+    }
+};
